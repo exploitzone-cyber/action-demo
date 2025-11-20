@@ -5,7 +5,7 @@ on: push
 jobs:
   super-lint:
     name: app code base
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: checkout code
